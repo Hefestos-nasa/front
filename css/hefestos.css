@@ -371,19 +371,15 @@ text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
 
 
 
-.div-notice {
-}
+
 .div-notice-post {
-/*background: green;*/
 margin: 10px
 }
 .div-notice-more {
-/*background: yellow;*/
 margin: 10px;
 }
 .intro-div-notice {
 padding-bottom: 10px;
-/*background: blue*/
 }
 .intro-div-notice-top {
 color: rgba(0, 0, 0, .7);
@@ -392,12 +388,7 @@ padding: 30px
 .intro-div-notice-top small {
 color: rgba(0, 0, 0, .4);
 }
-.intro-div-notice-image {
-/*background: red*/
-}
-.intro-div-notice-text {
-/*background: blue*/
-}
+
 .intro-notice-image {
 height: 300px;
 /*border-radius: 6px;*/
@@ -514,10 +505,35 @@ background-size: cover
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
 
 }
-
-
-
-
+.rodape {
+height: 60px;
+}
+.testes {
+position: fixed;
+height: 60px;
+bottom: 0;
+background: #fff;
+width: 100%;
+z-index: 99;
+border-top: 1px solid #ccc;
+}
+.testes a {
+  color: #0B3D91;
+}
+.menu-bot {
+  height: 100%;
+}
+.location {
+height: 100px;
+}
+.input-falso {
+font-size: 18px;
+color: rgba(255, 255, 255, .5);
+}
+.input-falso strong {
+  border-bottom: 1px dashed #fff;
+  color: rgba(255, 255, 255, .8);
+}
 
 @media only screen and (max-width: 480px) {
   .some-mobile {

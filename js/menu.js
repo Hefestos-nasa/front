@@ -18,3 +18,14 @@
     }
   };
   // /FECHAR MENU
+
+
+
+  fechaBot.onclick = function() {
+  var abrebot = document.getElementById('espBot');
+  if (abrebot.style.display !== 'none') {
+    abrebot.style.display = 'none';
+  } else {
+    abrebot.style.display = 'block';
+  }
+};
