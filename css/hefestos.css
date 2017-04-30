@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.margin {
+  margin: 0 auto;
+}
+.size {
+  width: 1140px;
+  max-width: 90%;
+}
+.mt2 {
+  margin-top: 20px
+}
+
+
+.container {
+  /*border: 1px solid red;*/
+  padding: 10px;
+}
+.full-height {
+  height: 100%;
+}
+
+
+
+.menu-full {
+  height: 200px;
+}
+.menu {
+  /*background: red;*/
+  height: 200px;
+}
+.menu-logo {
+  /*background: yellow;*/
+}
+.menu-intro {
+  /*background: green;*/
+color: #fff
+}
+.logo {
+width: 200px;
+max-width: 90%;
+}
+.logo-logo {
+  /*background: red;*/
+}
+.menu-buttons {
+  /*background: purple;*/
+}
+.itens-menu:first-child button {
+  margin-right: 5px;
+}
+
+
+
+.categories {
+  overflow-x: scroll;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+.categories::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);s
+}
+
+.categories::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}*/
+
+
+.categories-item {
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.container-lives {
+  background: green;
+  padding: 10px;
+  /*overflow-x: scroll;*/
+}
+
+.lives-item {
+  background: yellow;
+  padding: 10px;
+  margin: 10px;
+  height: 250px;
+}
+
+.container-news {
+  background: yellow;
+}
+
+.news-item {
+  background: purple;
+  padding: 10px;
+  margin: 10px;
+  height: 300px;
+}
