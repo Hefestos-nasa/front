@@ -59,6 +59,7 @@ border-radius: 6px;
   position: fixed;
 width: 100%;
 z-index: 99;
+background: #0B3D91
 }
 .menu-rel {
 position: relative;
