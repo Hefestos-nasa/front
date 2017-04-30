@@ -2,6 +2,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+text-decoration: none;
+}
 .margin {
   margin: 0 auto;
 }
@@ -12,7 +15,9 @@
 .mt2 {
   margin-top: 20px
 }
-
+.pointer {
+cursor: pointer;
+}
 
 .container {
   /*border: 1px solid red;*/
@@ -20,6 +25,10 @@
 }
 .full-height {
   height: 100%;
+}
+
+.test {
+border: 1px solid red;
 }
 
 
@@ -33,6 +42,13 @@
 }
 .menu-logo {
   /*background: yellow;*/
+}
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+.menu-resp {
+  display: none;
 }
 .menu-intro {
   /*background: green;*/
@@ -50,6 +66,21 @@ max-width: 90%;
 }
 .itens-menu:first-child button {
   margin-right: 5px;
+}
+
+
+
+
+.menu-resp {
+position: fixed;
+height: 100%;
+top: 0;
+background: rgba(255, 255, 255, .9);
+width: 100%;
+color: #000;
+}
+.menu-resp-header {
+padding-top: 50px
 }
 
 
@@ -74,9 +105,31 @@ max-width: 90%;
 
 
 .categories-item {
-  border: 1px solid green;
+  padding: 10px;
+  text-align: center;
+}
+.categories-item a {
+  color: rgba(0, 0, 0, 0.5);
+  transition: .3s ease
+
+}
+.categories-item:hover {
+  border-bottom: 5px solid green;
   padding: 10px;
 }
+.categories-item:hover a {
+color: rgba(0, 0, 0, 0.9)
+}
+.categ-select {
+  border-bottom: 5px solid green;
+  font-weight: bold;
+}
+.categ-select a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+
 
 .container-lives {
   background: green;
@@ -100,4 +153,19 @@ max-width: 90%;
   padding: 10px;
   margin: 10px;
   height: 300px;
+}
+
+@media only screen and (max-width: 480px) {
+  .some-mobile {
+  display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .some-tablet {
+  display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
 }
