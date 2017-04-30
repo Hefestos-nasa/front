@@ -311,12 +311,17 @@ text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
   background-size: cover;
 }
 .bg-news2 {
+  background: url(../img/news/2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bg-news22 {
   background: url('http://www.apolo11.com/imagens/etc/marte_avalanche_19fev2008.jpg');
   background-position: center;
   background-size: cover;
 }
 .bg-news3 {
-  background: url(../img/news/3.jpg);
+  background: url('http://s2.glbimg.com/NiHG2xzi8RIaswH11bWaAnfLyWI=/s.glbimg.com/jo/g1/f/original/2016/01/19/mateusleme.jpg');
   background-position: center;
   background-size: cover;
 }
