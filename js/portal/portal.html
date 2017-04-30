@@ -1,0 +1,96 @@
+<div ng-controller="PortalController">
+  <!-- menu deslogado -->
+  <!-- <div class="menu-rel">
+    <div class="menu-full bg-primary">
+      <div class="container2 column menu margin size">
+        <div class="menu-logo basis1 flex">
+          <div class="container2 full-height">
+            <div class="logo-logo basis2">
+              <div class="container center-center full-height">
+                <div class="">
+                  <img src="img/logo.svg" width="200" alt="" class="logo">
+                </div>
+              </div>
+            </div>
+            <div class="menu-buttons flex">
+              <div class="container center-right full-height">
+                <div class="itens-menu some-tablet">
+                  <button type="button" name="button" class="btn btn-radius bg-primary2">Cadastre-se</button>
+                </div>
+                <div class="itens-menu some-tablet">
+                  <button type="button" name="button" class="btn btn-radius bg-primary2">Login</button>
+                </div>
+                <div class="itens-menu">
+                  <img src="img/menu.svg" width="20" alt="" class="hamburger" id="abreMenu">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-intro basis2 flex2">
+      <div class="container center-center full-height">
+        <div class="">
+          <h1>Bem-vindo ao Hefestos.</h1>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- menu deslogado -->
+  <!-- menu logado -->
+  <div class="menu-rel">
+    <div class="menu-full bg-primary">
+      <div class="container2 column menu margin size">
+        <div class="menu-logo basis1 flex">
+          <div class="container2 full-height">
+            <div class="logo-logo basis2">
+              <div class="container center-center full-height">
+                <div class="">
+                  <a ui-sref="portal.uninews"><img src="img/logo.svg" alt="" class="logo"></a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-buttons flex">
+              <div class="container center-right full-height">
+                <div class="itens-menu some-tablet">
+                  <a href="#"><img src="img/home.svg" width="20" alt=""></a>
+                </div>
+                <div class="itens-menu some-tablet">
+                  <a href="#"><img src="img/bookmark2.svg" width="20" alt=""></a>
+                </div>
+                <div class="itens-menu some-tablet">
+                  <a href="#">
+                    <div class="img-perfil">
+                    </div>
+                  </a>
+                </div>
+                <div class="itens-menu">
+                  <img src="img/menu.svg" width="20" alt="" class="hamburger" id="abreMenu">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- menu logado -->
+
+  <div class="categories container2 margin size">
+    <div class="categories-item basis1 border-primary categ-select">
+      <a ui-sref="portal.uninews">UniNews</a>
+    </div>
+
+    <div class="categories-item basis1 border-primary">
+      <a ui-sref="portal.uninews">Planetas</a>
+    </div>
+
+    <div class="categories-item basis1 border-primary">
+      <a ui-sref="portal.uninews">Asteroides</a>
+    </div>
+  </div>
+
+  <ui-view></ui-view>
+</div>

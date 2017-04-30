@@ -5,5 +5,5 @@ angular
   NoticeController.$inject = ['$stateParams']
 
   function NoticeController($stateParams) {
-
+    console.log($stateParams.noticeId)
   }

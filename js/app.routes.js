@@ -5,24 +5,46 @@ angular
   config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider']
 
   function config($stateProvider, $urlRouterProvider, $locationProvider) {
-    $locationProvider.html5Mode(true)
-
     $stateProvider
-      .state('home', {
+      .state('portal', {
         url: '/',
-        templateUrl: 'js/home/home.html',
-        controller: 'HomeController'
+        templateUrl: 'js/portal/portal.html',
+        controller: 'PortalController'
       })
-      .state('categorie', {
-        url: '/categorie',
-        templateUrl: 'js/categorie/categorie.html',
+
+      /**
+       * Todas categorias
+       */
+      .state('portal.uninews', {
+        url: 'categorie/uninews',
+        templateUrl: 'js/portal/categorie/categorie.html',
         controller: 'CategorieController'
       })
-      .state('notice', {
-        url: '/notice/:noticeId',
-        templateUrl: 'js/notice/notice.html',
-        controller: 'NoticeController'
+
+      /**
+       *
+       */
+      .state('portal.categorie', {
+        url: 'categorie/:categorieId',
+        templateUrl: 'js/portal/categorie/categorie.html',
+        controller: 'CategorieController'
       })
 
-    $urlRouterProvider.otherwise('/')
+      .state('portal.notice', {
+        url: 'notice/:noticeId',
+        templateUrl: 'js/portal/notice/notice.html',
+        controller: 'NoticeController'
+      })
+      .state('login', {
+        url: 'login',
+        templateUrl: 'js/account/login/login.html',
+        controller: 'LoginController'
+      })
+      .state('register', {
+        url: 'register',
+        templateUrl: 'js/account/register/register.html',
+        controller: 'RegisterController'
+      })
+
+    $urlRouterProvider.otherwise('categorie/uninews')
   }

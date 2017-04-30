@@ -4,4 +4,8 @@ angular
     , 'HomeController'
     , 'CategorieController'
     , 'NoticeController'
+    , 'NoticeService'
+    , 'LoginController'
+    , 'RegisterController'
+    , 'PortalController'
   ])

@@ -1,150 +1,45 @@
 <!DOCTYPE html>
 <html ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <base href="/">
 
-<head>
-  <meta charset="utf-8">
-  <base href="/">
+    <title>TEY</title>
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/flexalign.css">
+    <link rel="stylesheet" href="css/hefestos.css">
+  </head>
 
-  <title>TEY</title>
-  <link rel="stylesheet" href="css/colors.css">
-  <link rel="stylesheet" href="css/buttons.css">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/flexalign.css">
-  <link rel="stylesheet" href="css/hefestos.css">
-</head>
+  <body>
+    <ui-view></ui-view>
 
-<body>
-  <!-- menu deslogado -->
-  <!-- <div class="menu-rel">
-    <div class="menu-full bg-primary">
-      <div class="container2 column menu margin size">
-        <div class="menu-logo basis1 flex">
-          <div class="container2 full-height">
-            <div class="logo-logo basis2">
-              <div class="container center-center full-height">
-                <div class="">
-                  <img src="img/logo.svg" width="200" alt="" class="logo">
-                </div>
-              </div>
-            </div>
-            <div class="menu-buttons flex">
-              <div class="container center-right full-height">
-                <div class="itens-menu some-tablet">
-                  <button type="button" name="button" class="btn btn-radius bg-primary2">Cadastre-se</button>
-                </div>
-                <div class="itens-menu some-tablet">
-                  <button type="button" name="button" class="btn btn-radius bg-primary2">Login</button>
-                </div>
-                <div class="itens-menu">
-                  <img src="img/menu.svg" width="20" alt="" class="hamburger" id="abreMenu">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- menu deslogado -->
-  <!-- menu logado -->
-  <div class="menu-rel">
-    <div class="menu-full bg-primary">
-      <div class="container2 column menu margin size">
-        <div class="menu-logo basis1 flex">
-          <div class="container2 full-height">
-            <div class="logo-logo basis2">
-              <div class="container center-center full-height">
-                <div class="">
-                  <a href="#"><img src="img/logo.svg" alt="" class="logo"></a>
-                </div>
-              </div>
-            </div>
-            <div class="menu-buttons flex">
-              <div class="container center-right full-height">
-                <div class="itens-menu some-tablet">
-                  <a href="#"><img src="img/home.svg" width="20" alt=""></a>
-                </div>
-                <div class="itens-menu some-tablet">
-                  <a href="#"><img src="img/bookmark2.svg" width="20" alt=""></a>
-                </div>
-                <div class="itens-menu some-tablet">
-                  <a href="#">
-                    <div class="img-perfil">
-                    </div>
-                  </a>
-                </div>
-                <div class="itens-menu">
-                  <img src="img/menu.svg" width="20" alt="" class="hamburger" id="abreMenu">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- menu logado -->
+    <!-- External libs -->
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
 
+    <!-- Main modules -->
+    <script src="js/app.modules.js"></script>
+    <script src="js/app.routes.js"></script>
 
-  <div class="menu-resp" id="painelResp">
-    <div class="menu-resp-header container size margin full-height ">
-      <div class="flex">
-        <h2>Menu</h2>
-      </div>
-      <div class="basis">
-        <h2 id="fechaMenu" class="pointer">X</h2>
-      </div>
-    </div>
-  </div>
-  <!-- menu -->
-  <!-- categoria -->
-  <div class="categories container2 margin size">
-    <div class="categories-item basis1 border-primary categ-select">
-      <a ui-sref="category">UniNews</a>
-    </div>
-    <div class="categories-item basis1 border-primary">
-      <a href="#">Planetas</a>
-    </div>
-    <div class="categories-item basis1 border-primary">
-      <a href="#">Asteroides</a>
-    </div>
+    <!-- Portal module -->
+    <script src="js/portal/portal.controller.js"></script>
 
+    <!-- Home module -->
+    <script src="js/portal/home/home.controller.js"></script>
 
-  </div>
-  <!-- categoria -->
+    <!-- Categorie module -->
+    <script src="js/portal/categorie/categorie.controller.js"></script>
 
+    <!-- Notice module -->
+    <script src="js/portal/notice/notice.controller.js"></script>
+    <script src="js/portal/notice/notice.service.js"></script>
 
-  <ui-view></ui-view>
-</body>
-<!-- lives -->
-<!-- lives -->
+    <!-- Login module -->
+    <script src="js/account/login/login.controller.js"></script>
 
-
-
-
-
-
-
-<!-- Main animations -->
-<script type="text/javascript" src="js/menu.js"></script>
-
-<!-- External libs -->
-<script src="libs/angular/angular.min.js"></script>
-<script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
-
-</body>
-
-<!-- Main modules -->
-<script src="js/app.modules.js"></script>
-<script src="js/app.routes.js"></script>
-
-<!-- Home module -->
-<script src="js/home/home.controller.js"></script>
-
-<!-- Categorie module -->
-<script src="js/categorie/categorie.controller.js"></script>
-
-<!-- Notice module -->
-<script src="js/notice/notice.controller.js"></script>
-
+    <!-- Register module -->
+    <script src="js/account/register/register.controller.js"></script>
+  </body>
 </html>
