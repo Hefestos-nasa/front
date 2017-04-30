@@ -13,10 +13,15 @@ angular
         templateUrl: 'js/home/home.html',
         controller: 'HomeController'
       })
-      .state('category', {
-        url: '/category',
-        templateUrl: 'js/category/category.html',
-        controller: 'CategoryController'
+      .state('categorie', {
+        url: '/categorie',
+        templateUrl: 'js/categorie/categorie.html',
+        controller: 'CategorieController'
+      })
+      .state('notice', {
+        url: '/notice/:noticeId',
+        templateUrl: 'js/notice/notice.html',
+        controller: 'NoticeController'
       })
 
     $urlRouterProvider.otherwise('/')

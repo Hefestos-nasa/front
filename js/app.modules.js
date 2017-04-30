@@ -2,5 +2,6 @@ angular
   .module('App', [
     , 'Routes'
     , 'HomeController'
-    , 'CategoryController'
+    , 'CategorieController'
+    , 'NoticeController'
   ])
