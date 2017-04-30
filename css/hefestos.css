@@ -56,11 +56,17 @@ border-radius: 6px;
 
 
 .menu-full {
-  height: 200px;
+  position: fixed;
+width: 100%;
+z-index: 99;
+}
+.menu-rel {
+position: relative;
+height: 70px
 }
 .menu {
   /*background: red;*/
-  height: 200px;
+  height: 70px;
 }
 .menu-logo {
   /*background: yellow;*/
@@ -77,7 +83,7 @@ border-radius: 6px;
 color: #fff
 }
 .logo {
-width: 200px;
+width: 150px;
 max-width: 90%;
 }
 .logo-logo {
@@ -89,7 +95,9 @@ max-width: 90%;
 .itens-menu:first-child button {
   margin-right: 5px;
 }
-
+.itens-menu {
+  margin: 5px
+}
 
 
 
@@ -165,28 +173,31 @@ color: #fff;
 cursor: pointer;
 transition: .3s
 }
+.lives-item a {
+color: #fff;
+}
 .bg-live1 {
-  background: url(../img/lives/1.jpeg);
+  background: url(../img/lives/1.png);
   background-position: center;
   background-size: cover;
 }
 .bg-live2 {
-  background: url(../img/lives/2.jpeg);
+  background: url(../img/lives/2.png);
   background-position: center;
   background-size: cover;
 }
 .bg-live3 {
-  background: url(../img/lives/3.jpeg);
+  background: url(../img/lives/3.png);
   background-position: center;
   background-size: cover;
 }
 .bg-live4 {
-  background: url(../img/lives/4.jpeg);
+  background: url(../img/lives/4.png);
   background-position: center;
   background-size: cover;
 }
 .bg-live5 {
-  background: url(../img/lives/5.jpeg);
+  background: url(../img/lives/5.png);
   background-position: center;
   background-size: cover;
 }
@@ -215,7 +226,7 @@ margin-left: 20px
 .title-rev {
   padding-bottom: 0px;
   padding-top: 20px;
-  margin-left: 15px
+  margin-left: 15px;
 }
 .title h2,
 .title-seq h2,
@@ -423,8 +434,14 @@ font-weight: normal;
 margin-right: 30px;
 text-align: right;
 }
+.buttons {
+padding: 30px;
+}
 .buttons-news {
 margin: 5px;
+}
+.buttons-news:hover {
+  transform: scale(1.1, 1.1);
 }
 .buttons-news a {
   color: rgba(0, 0, 0, .5);
@@ -480,6 +497,27 @@ background: #fff
 .seg-painel label {
 color: rgba(0, 0, 0, .8);
 }
+.img-perfil {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: 2px solid #9badcb;
+background: url(../img/perfil.jpg);
+position: right;
+background-size: cover
+}
+
+.subs span {
+  font-size: 20px
+}
+.txt-shadow {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+
+}
+
+
+
+
 
 @media only screen and (max-width: 480px) {
   .some-mobile {
@@ -497,8 +535,13 @@ color: rgba(0, 0, 0, .8);
     padding: 10px;
     font-size: 12px
   }
-  .intro-div-notice-top {
+  .intro-div-notice-top,
+.buttons {
     padding: 10px
   }
+  .buttons {
+  padding: 10px;
+  }
+
 
 }
