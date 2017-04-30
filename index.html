@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="App">
   <head>
     <meta charset="utf-8">
+    <base href="/">
+
     <title>TEY</title>
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/buttons.css">
@@ -61,7 +63,6 @@
   </div>
 </div>
 <!-- menu -->
-
 <!-- categoria -->
 <div class="categories container margin size">
   <div class="categories-item basis1 border-primary categ-select">
@@ -95,110 +96,25 @@
 </div>
 <!-- categoria -->
 
-<!-- lives -->
-<div class="container-lives container left-center size margin mt2">
-  <div class="lives-item basis2">
-
-  </div>
-  <div class="lives-item basis2">
-
-  </div>
-  <div class="lives-item basis2">
-
-  </div>
-  <div class="lives-item basis2">
-
-  </div>
-  <div class="lives-item basis2">
-
-  </div>
-  <div class="lives-item basis2">
-
-  </div>
-</div>
-<!-- lives -->
-
-<div class="container-news container wrap left-center size margin mt2">
-  <div class="news-item basis3 flex">
-
-  </div>
-  <div class="news-item basis3 flex">
-
-  </div>
-  <div class="news-item basis3 flex">
-
-  </div>
-  <div class="news-item basis3 flex">
-
-  </div>
-  <div class="news-item basis3 flex">
-
-  </div>
-  <div class="news-item basis3 flex">
-
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" src="js/menu.js"></script>
+    <ui-view></ui-view>
   </body>
+
+  <!-- Main animations -->
+  <script type="text/javascript" src="js/menu.js"></script>
+
+  <!-- External libs -->
+  <script src="libs/angular/angular.min.js"></script>
+  <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  </body>
+
+  <!-- Main modules -->
+  <script src="js/app.modules.js"></script>
+  <script src="js/app.routes.js"></script>
+
+  <!-- Home module -->
+  <script src="js/home/home.controller.js"></script>
+
+  <!-- Category module -->
+  <script src="js/category/category.controller.js"></script>
 </html>

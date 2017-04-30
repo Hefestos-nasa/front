@@ -1,0 +1,10 @@
+{
+  "name": "hefestos",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}
