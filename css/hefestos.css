@@ -127,22 +127,19 @@ color: rgba(0, 0, 0, 0.9)
 .categ-select a {
   color: rgba(0, 0, 0, 0.7);
 }
-
-
-
-
-.container-lives {
+.lives {
+background: red;
+padding: 10px;
+overflow: scroll;
+}
+.lives-item  {
   background: green;
-  padding: 10px;
-  /*overflow-x: scroll;*/
+  margin: 10px;
+height: 250px;
+
 }
 
-.lives-item {
-  background: yellow;
-  padding: 10px;
-  margin: 10px;
-  height: 250px;
-}
+
 
 .container-news {
   background: yellow;
