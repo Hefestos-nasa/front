@@ -1,22 +1,29 @@
-# Hefestos
+﻿# Hefestos
 > :rocket: Hefestos portal
 
-## Explicação
-Uma necessidade que acabamos identificando, é que para a consulta de materiais de um nível maior estão apenas em serviços da NASA e algumas aplicações como NASAEarth, que para **usuários mais leigos** são de acesso não simplificado, então a ideia é disponibilizar esse conteúdo com uma interface simples e de fácil uso.
+## Explanation/Explicação
+EN-US:
+What is Hefestos? 
+It’s a solution that connects you with all of NASA’s sources that are able to detect and identify natural disasters, space events, interplanetary missions, and many more that occur all over the universe. 
+With its easy and intuitive interface, notifications, maps and graphics, you will always be aware of which possible dangers or events that may be around you and the planet itself.
+Wishes to read some news about NASA’s public data? Hefestos got you covered! The UniNews feature will keep you up to date. 
+And also, our filters will help you find all the data that you’re looking for your application.
 
-- Lives
-- Notificações
+PT-BR:
+Uma necessidade identificada nos vários recursos disponibilizados pela NASA hoje em dia, é que a consulta e recuperação destes materiais não acontece de maneira simples e fácil para usuários leigos.
+Juntando várias destas APIs disponíveis em uma solução unificada, tanto usuários quanto desenvolvedores serão capazes de encontrar dados relevantes, não apenas para suas regiões locais, mas para todo o planeta em si. Notificações, mapas, imagens e gráficos juntos de forma a beneficiar a humanidade, sejam em catástrofes naturais, eventos espaciais ou missões interplanetárias. 
 
-## Recursos usados
-**Recursos técnicos**
+## Used Resources/Recursos Usados
+**Tech resources/Recursos técnicos**
 - Angular
 - Bower
 - Node
 
-**Recursos de dados**
+**Data Resources/Recursos de dados**
 - EONET API
 
-## Para desenvolvimento
+## For Development/Para desenvolvimento
+It's necessary the use of a HTTP Server
 É necessário o uso de um servidor HTTP
 
 ```sh
