@@ -4,14 +4,17 @@
 ## Explanation/Explicação
 EN-US:
 What is Hefestos? 
-It’s a solution that connects you with all of NASA’s sources that are able to detect and identify natural disasters, space events, interplanetary missions, and many more that occur all over the universe. 
+It’s a solution that connects you with all of NASA’s sources that are able to detect and identify natural disasters, space events and interplanetary missions that occur all over the universe. 
 With its easy and intuitive interface, notifications, maps and graphics, you will always be aware of which possible dangers or events that may be around you and the planet itself.
-Wishes to read some news about NASA’s public data? Hefestos got you covered! The UniNews feature will keep you up to date. 
+Wishes to read the latest news about NASA’s public data? Hefestos got you covered! The UniNews feature in our website will keep you up to date. And if that’s not enough for you, Hefestos AI can provide useful information, by just asking it!
 And also, our filters will help you find all the data that you’re looking for your application.
 
 PT-BR:
-Uma necessidade identificada nos vários recursos disponibilizados pela NASA hoje em dia, é que a consulta e recuperação destes materiais não acontece de maneira simples e fácil para usuários leigos.
-Juntando várias destas APIs disponíveis em uma solução unificada, tanto usuários quanto desenvolvedores serão capazes de encontrar dados relevantes, não apenas para suas regiões locais, mas para todo o planeta em si. Notificações, mapas, imagens e gráficos juntos de forma a beneficiar a humanidade, sejam em catástrofes naturais, eventos espaciais ou missões interplanetárias. 
+O que é Hefestos?
+É uma solução que conecta você com todas as fontes da NASA que detectam e identificam desastres naturais, eventos espaciais e missões interplanetárias que ocorrem por todo o universo.
+Com sua interface fácil e intuitiva, notificações, mapas e gráficos, você sempre estará ciente de quais possíveis perigos ou eventos possam estar ao seu redor, ou até mesmo do próprio planeta.
+Deseja ler as últimas matérias sobre os dados públicos da NASA? O Hefestos te ajuda! A função UniNews em nosso site vai te manter informado. E se isso não for o bastante, o Hefestos AI te fornecerá as informações que deseja, basta pedir pra ele!
+E também, nossos filtros ajudarão a encontrar os dados que você tanto procura para a sua aplicação.
 
 ## Used Resources/Recursos Usados
 **Tech resources/Recursos técnicos**
