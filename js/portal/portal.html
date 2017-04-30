@@ -1,6 +1,5 @@
-<div ng-controller="PortalController">
-  <!-- menu deslogado -->
-  <!-- <div class="menu-rel">
+<div ng-controller="PortalController" class="">
+  <div class="menu-rel bg-primary">
     <div class="menu-full bg-primary">
       <div class="container2 column menu margin size">
         <div class="menu-logo basis1 flex">
@@ -8,47 +7,7 @@
             <div class="logo-logo basis2">
               <div class="container center-center full-height">
                 <div class="">
-                  <img src="img/logo.svg" width="200" alt="" class="logo">
-                </div>
-              </div>
-            </div>
-            <div class="menu-buttons flex">
-              <div class="container center-right full-height">
-                <div class="itens-menu some-tablet">
-                  <button type="button" name="button" class="btn btn-radius bg-primary2">Cadastre-se</button>
-                </div>
-                <div class="itens-menu some-tablet">
-                  <button type="button" name="button" class="btn btn-radius bg-primary2">Login</button>
-                </div>
-                <div class="itens-menu">
-                  <img src="img/menu.svg" width="20" alt="" class="hamburger" id="abreMenu">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="menu-intro basis2 flex2">
-      <div class="container center-center full-height">
-        <div class="">
-          <h1>Bem-vindo ao Hefestos.</h1>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- menu deslogado -->
-  <!-- menu logado -->
-  <div class="menu-rel">
-    <div class="menu-full bg-primary">
-      <div class="container2 column menu margin size">
-        <div class="menu-logo basis1 flex">
-          <div class="container2 full-height">
-            <div class="logo-logo basis2">
-              <div class="container center-center full-height">
-                <div class="">
-                  <a ui-sref="portal.uninews"><img src="img/logo.svg" alt="" class="logo"></a>
+                  <a href="#"><img src="img/logo.svg" alt="" class="logo"></a>
                 </div>
               </div>
             </div>
@@ -78,19 +37,63 @@
   </div>
   <!-- menu logado -->
 
-  <div class="categories container2 margin size">
-    <div class="categories-item basis1 border-primary categ-select">
-      <a ui-sref="portal.uninews">UniNews</a>
-    </div>
-
-    <div class="categories-item basis1 border-primary">
-      <a ui-sref="portal.uninews">Planetas</a>
-    </div>
-
-    <div class="categories-item basis1 border-primary">
-      <a ui-sref="portal.uninews">Asteroides</a>
+  <div class="container location text-center color-white bg-primary">
+    <div class="flex">
+      <div class="container center-center  margin">
+        <p>Você está em <strong><img src="img/location.svg" width="15" alt="">Maringá-PR/BRA</strong></p>
+      </div>
     </div>
   </div>
 
-  <ui-view></ui-view>
+  <div class="menu-resp" id="painelResp">
+    <div class="menu-resp-header container size margin full-height ">
+      <div class="flex">
+        <h2>Menu</h2>
+      </div>
+      <div class="basis">
+        <h2 id="fechaMenu" class="pointer">X</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- categoria -->
+  <div class="categories container2 margin size">
+    <div class="basis1">
+      <div class="container center-center">
+        <div class="">
+          <img src="img/search.svg" width="20" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="categories-item basis1 border-primary categ-select">
+      <a ui-sref="portal.uninews">UniNews</a>
+    </div>
+    <div class="categories-item basis1 border-primary">
+      <a ui-sref="portal.uninews">Planetas</a>
+    </div>
+    <div class="categories-item basis1 border-primary">
+      <a ui-sref="portal.uninews">Asteroides</a>
+    </div>
+
+    <div class="rodape">
+      <div class="">
+
+      </div>
+    </div>
+
+    <div class="testes" id="espBot">
+      <div class="container margin size menu-bot space-between-center">
+        <div class="">
+          <div class="container center-center">
+            <p>Conheça nossos bots para <a href="#">Messenger</a> <a href="#">Slack</a> <a href="#">Telegram</a></p>
+          </div>
+        </div>
+        <div class="">
+          <a href="#" id="fechaBot"><img src="img/cancel.svg" width="30" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<ui-view></ui-view>

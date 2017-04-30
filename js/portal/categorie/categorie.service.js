@@ -1,11 +1,11 @@
 angular
-  .module('NoticeService', [])
-  .service('NoticeService', NoticeService)
+  .module('CategorieService', [])
+  .service('CategorieService', CategorieService)
 
-  NoticeService.$inject = ['$http']
+  CategorieService.$inject = ['$http']
 
-  function NoticeService($http) {
-    var url = '192.168.90.102:3000/'
+  function CategorieService($http) {
+    var uri = 'https://microservice-hefestus.herokuapp.com/'
     var vm = this
 
     vm.getPhotosFromDay = getPhotosFromDay
@@ -21,7 +21,7 @@ angular
     function getPhotosFromDay() {
       return $http({
         method: 'GET',
-        url: url + 'foto-do-dia'
+        url: uri + 'foto-do-dia'
       })
     }
 
@@ -31,7 +31,7 @@ angular
     function getAsteroids() {
       return $http({
         method: 'GET',
-        url: url + 'asteroides'
+        url: uri + 'asteroides'
       })
     }
 
@@ -41,7 +41,7 @@ angular
     function getImagesFromMars() {
       return $http({
         method: 'GET',
-        url: url + 'imagens-marte'
+        url: uri + 'imagens-marte'
       })
     }
 
@@ -51,7 +51,7 @@ angular
     function getComets() {
       return $http({
         method: 'GET',
-        url: url + 'nhats'
+        url: uri + 'nhats'
       })
     }
 
@@ -61,7 +61,7 @@ angular
     function getFireBalls() {
       return $http({
         method: 'GET',
-        url: url + 'bolas-de-fogo'
+        url: uri + 'bolas-de-fogo'
       })
     }
   }

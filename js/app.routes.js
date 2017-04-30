@@ -24,8 +24,8 @@ angular
       /**
        *
        */
-      .state('portal.categorie', {
-        url: 'categorie/:categorieId',
+      .state('portal.apod', {
+        url: 'categorie/apod',
         templateUrl: 'js/portal/categorie/categorie.html',
         controller: 'CategorieController'
       })

@@ -3,8 +3,8 @@
 
 ## Explanation/Explicação
 EN-US:
-What is Hefestos? 
-It’s a solution that connects you with all of NASA’s sources that are able to detect and identify natural disasters, space events and interplanetary missions that occur all over the universe. 
+What is Hefestos?
+It’s a solution that connects you with all of NASA’s sources that are able to detect and identify natural disasters, space events and interplanetary missions that occur all over the universe.
 With its easy and intuitive interface, notifications, maps and graphics, you will always be aware of which possible dangers or events that may be around you and the planet itself.
 Wishes to read the latest news about NASA’s public data? Hefestos got you covered! The UniNews feature in our website will keep you up to date. And if that’s not enough for you, Hefestos AI can provide useful information, by just asking it!
 And also, our filters will help you find all the data that you’re looking for your application.
@@ -24,6 +24,21 @@ E também, nossos filtros ajudarão a encontrar os dados que você tanto procura
 
 **Data Resources/Recursos de dados**
 - EONET API
+- APOD Imagery API
+- Neo Feed API
+- Neo Lookup API
+- Neo Browse API
+- EPIC Images API
+- EPIC Data API
+- EPIC Recent All Data API
+- EPIC Recent Images API
+- EARTH Imagery API
+- EARTH Assets API
+- PATENTS API
+- SOUNDS API
+- CAD API
+- Fireball
+- NHATS
 
 ## For Development/Para desenvolvimento
 It's necessary the use of a HTTP Server
