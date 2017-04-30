@@ -311,7 +311,7 @@ text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
   background-size: cover;
 }
 .bg-news2 {
-  background: url(../img/news/2.jpg);
+  background: url('http://www.apolo11.com/imagens/etc/marte_avalanche_19fev2008.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -321,7 +321,7 @@ text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
   background-size: cover;
 }
 .bg-news4 {
-  background: url(../img/news/4.jpeg);
+  background: url('https://amazoniasustentavel.files.wordpress.com/2015/09/alta_floresta_amo_2007272_lrg.jpg');
   background-position: center;
   background-size: cover;
 }
